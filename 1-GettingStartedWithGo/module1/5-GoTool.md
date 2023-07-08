@@ -17,5 +17,5 @@
 - `go fmt` formats source code files
 - `go get` downloads packages and installs them
 - `go list` lists all installed packages
-- `go run` runs compiles .go files and runs the executable
+- `go run` compiles .go files and runs the executable
 - `go test` runs tests using files ending in "_test.go"
