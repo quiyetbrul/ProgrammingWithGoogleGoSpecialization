@@ -7,14 +7,20 @@
 - any number of letterse, digits, underscores
 - case sensitive
 - don't use keywords
-  - i.e. if, case, package, ...
+  - i.e. `if`, `case`, `package`, ...
 
 ## Variables
 - data stored in memory
 - must have a name and a type
 - all variables must have declarations
-- most basic declaration: `var x int` -> keyword name type
-- can declare many on the same line: `var x, y int`
+- most basic declaration: 
+```golang
+var x int // keyword name type
+```
+- can declare many on the same line: 
+```golang
+var x, y int
+```
 
 ## Variable Types
 - type defines the values a variable may take and operations that can be performed on it
