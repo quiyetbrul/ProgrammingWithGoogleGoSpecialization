@@ -29,4 +29,3 @@
 - `Channels` are used to communicate between tasks
 - `Select` enables task synchronization
 - concurrency primitives are efficient and easy to use
-- 
