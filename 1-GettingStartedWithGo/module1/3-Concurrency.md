@@ -13,3 +13,20 @@
   - when do tasks start/stop?
   - what if one task needs data from another task?
   - do tasks conflict in memory?
+
+## Concurrent Programming
+- Concurrency is the management of multiple tasks at the same time
+- key requirement for large systems
+  - essentially, not all executing sequentially or at the same time
+- concurrent programming enables parallelism (if there's available hardware)
+  - management of task execution
+  - communication between tasks
+  - synchronization between tasks
+
+## Concurrency in Go
+- Go includes concurrency primitives
+- `Goroutines` represent concurrent tasks
+- `Channels` are used to communicate between tasks
+- `Select` enables task synchronization
+- concurrency primitives are efficient and easy to use
+- 
