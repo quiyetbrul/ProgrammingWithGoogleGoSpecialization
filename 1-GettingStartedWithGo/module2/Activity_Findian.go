@@ -6,7 +6,8 @@ import (
 )
 
 func findian(str string) bool {
-	return str[0] == 'i' && str[len(str)-1] == 'n' && strings.Contains(str, "a")
+	lower := strings.ToLower(str)
+	return strings.HasPrefix(lower, "i") && strings.HasSuffix(lower, "n") && strings.Contains(str, "a")
 }
 
 func main() {
