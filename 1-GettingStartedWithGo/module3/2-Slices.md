@@ -14,8 +14,8 @@ s1:=arr[1:3] // 1 points to the index where the slice starts, 3 is the index aft
 s2:=arr[2:5] // has c,b,d in the slice
 ```
 ## Length and Capacity
-- len() function returns the length of an array/slice
-- cap() function returns the capacity of an array
+- `len()` function returns the length of an array/slice
+- `cap()` function returns the capacity of an array
   - using this on an slice returns the capacity of the main array the slice is from
 ```golang
 a1:=[3]string{"a", "b", "c", "d"}
