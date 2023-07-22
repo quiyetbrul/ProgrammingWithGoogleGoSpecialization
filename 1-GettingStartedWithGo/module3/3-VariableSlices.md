@@ -16,4 +16,4 @@
 - increases size of array if necessary
   - `sli = make([]int, 0, 3)`
 - length of sli is 0
-  - `sli = append(sli, 100)`
+  - `sli = append(sli, 100)` - automatically increases the length of the slice
