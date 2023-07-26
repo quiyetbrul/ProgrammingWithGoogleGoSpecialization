@@ -2,29 +2,31 @@ package main
 
 import (
 	"bufio"
+	"encoding/json"
+	"fmt"
 	"os"
 	"strings"
 )
 
-// func main() {
-// 	fmt.Print("Enter name: ")
-// 	name := readInputLine()
+func main() {
+	fmt.Print("Enter name: ")
+	name := readInputLine()
 
-// 	fmt.Print("Enter address: ")
-// 	address := readInputLine()
+	fmt.Print("Enter address: ")
+	address := readInputLine()
 
-// 	idMap := make(map[string]string)
-// 	idMap[name] = address
+	idMap := make(map[string]string)
+	idMap[name] = address
 
-// 	jsonObj, err := json.Marshal(idMap)
-// 	if err != nil {
-// 		fmt.Println("Error converting to JSON:", err)
-// 		return
-// 	}
+	jsonObj, err := json.Marshal(idMap)
+	if err != nil {
+		fmt.Println("Error converting to JSON:", err)
+		return
+	}
 
-// 	fmt.Println("JSON Object:")
-// 	fmt.Println(string(jsonObj))
-// }
+	fmt.Println("JSON Object:")
+	fmt.Println(string(jsonObj))
+}
 
 func readInputLine() string {
 	reader := bufio.NewReader(os.Stdin)
