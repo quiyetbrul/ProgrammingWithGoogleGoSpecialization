@@ -54,6 +54,6 @@ func foo(x int) (int, int){
   return x, x+1
 }
 func main(){
-  a, b := foo(1) // returns 2
+  a, b := foo(1) // returns 1, 2
 }
 ```

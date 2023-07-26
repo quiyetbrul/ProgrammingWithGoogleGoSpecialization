@@ -7,7 +7,6 @@
 func main(){
   PrintHello()
 }
-
 func PrintHello(){
   fmt.Printf("Hello, world!\n")
 }

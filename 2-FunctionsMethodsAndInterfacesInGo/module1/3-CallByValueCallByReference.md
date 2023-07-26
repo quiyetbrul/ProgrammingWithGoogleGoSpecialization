@@ -42,6 +42,6 @@ func main(){
 ## Tradeoffs of Call by Reference
 
 - advantage: copying time
-- don't need to copy arguments
+  - don't need to copy arguments
 - disadvantage: data encapsulation
-- function variables may be changed in called functions
+  - function variables may be changed in called functions
