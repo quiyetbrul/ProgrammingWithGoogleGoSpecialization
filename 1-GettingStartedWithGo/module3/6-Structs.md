@@ -3,7 +3,7 @@
 - aggregate data type
 - groups together other objects of arbitrary type
 
-### Example
+## Example
 
 - Name, Address, Phone
 - Option 1: Have 3 separate variables, programmer remembers that they are related

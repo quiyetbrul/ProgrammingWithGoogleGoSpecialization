@@ -8,12 +8,16 @@
   - used to process the key and returns the corresponding value
 
 ## Tradeoffs of hash tables
+
 ### Advantages
+
 - faster lookup than lists
   - contant-time vs linear time
 - arbitrary keys
   - not ints, like slices or arrays
+
 ### Disadvantages
+
 - may have collisions
   - two keys hash to same slot
   

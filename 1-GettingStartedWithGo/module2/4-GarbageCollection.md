@@ -1,7 +1,9 @@
 # Garbage Collection
 
 ## Pointers and Deallocation
+
 - hard to determine when a variable is no longer in use
+
 ```golang
 func foo() *int{
   x:=1
@@ -26,4 +28,3 @@ func main(){
 - implementation is fast
 - compiler determines stack vs heap
 - garbage collection in the background
-

@@ -26,6 +26,7 @@ func ComputeRMS(samples[]float)float{}
     - this merge doesn't even make sense!
 
 ## Few Parameters
+
 - debugging requires tracing function input data
 - more difficult with a large numver of parameters
 - function may have bad functional cohesion
@@ -33,6 +34,7 @@ func ComputeRMS(samples[]float)float{}
     - if merged, then the new function will have more parameters
 
 ## Reducing Parameter Number
+
 - may need to group related arguments into structures
 - `TriangleArea()`, bad solution
   - 3 points needed to define triangle

@@ -1,6 +1,7 @@
 # Variables
 
 ## Naming
+
 - names are needed to refer to programming constructs
   - variables, functions...
 - names must start with a letter
@@ -9,20 +10,25 @@
 - don't use keywords
   - i.e. `if`, `case`, `package`, ...
 
-## Variables
+## More on Variables
+
 - data stored in memory
 - must have a name and a type
 - all variables must have declarations
-- most basic declaration: 
+- most basic declaration:
+
 ```golang
 var x int // keyword name type
 ```
-- can declare many on the same line: 
+
+- can declare many on the same line:
+
 ```golang
 var x, y int
 ```
 
 ## Variable Types
+
 - type defines the values a variable may take and operations that can be performed on it
 - Integer
   - only integral values

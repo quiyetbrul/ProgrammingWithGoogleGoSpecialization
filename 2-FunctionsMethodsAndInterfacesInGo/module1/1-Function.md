@@ -11,16 +11,20 @@ func PrintHello(){
   fmt.Printf("Hello, world!\n")
 }
 ```
+
 ## Reusability
+
 - you only need to declare a function once
 - good for commonly used operations
 - graphics editing program might have `ThresholdImage()`
 - database program might have `QueryDBase()`
 
 ## Abstraction
+
 - details are hidden in the function
 - only need to understand operations
 - improves understability
+
 ```golang
 func FindPupil(){
   GrabImage()
@@ -28,4 +32,5 @@ func FindPupil(){
   FindEllipses()
 }
 ```
+
 - naming is important for clarity

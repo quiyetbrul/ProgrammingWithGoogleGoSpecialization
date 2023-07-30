@@ -1,15 +1,19 @@
 # Comments, Printing, Integers
 
 ## Comments
+
 - comments are text for understandability
 - ignored by the compiler
-- single-line comments 
-```golang 
+- single-line comments
+
+```golang
 
 // this is a comment
 var x int // this is a comment
 ```
+
 - block comments
+
 ```golang
 /*
 comment 1
@@ -19,12 +23,14 @@ var x int
 ```
 
 ## Printing
+
 - import from the `fmt` package
 - `fmt.Printf()` (fmt.Println)
 - format strings are good for formatting
 - conversion characters for each argument `fmt.Printf("%s", x)`
 
 ## Integers
+
 - generic int declaraction
   - var x int
 - different lengths and signs

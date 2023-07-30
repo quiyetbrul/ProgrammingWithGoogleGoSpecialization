@@ -1,6 +1,7 @@
 # Workspace and Packages
 
 ## Workspace
+
 - hierarchy of directories
 - common organization is good for sharing
   - so people can collaborate easily
@@ -11,6 +12,7 @@
 - programmer typically has one workspace for many projects
 
 ### workspace information
+
 - directory is hierarchy is recommended, not enforced
   - i.e. you can have an executable in src
 - workspace directory defined by `GOPATH` environment variable
@@ -20,6 +22,7 @@
   - Go tools assume that code is in `GOPATH`
 
 ## Packages
+
 - group of related source file
 - each package can be imported by other packages
 - enables software reuse

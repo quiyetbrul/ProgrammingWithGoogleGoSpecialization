@@ -1,6 +1,7 @@
 # Variable Slices
 
 ## Make
+
 - create a slice and array using `make()`
 - 2-argument version:
   - specify type and length/capaciy
@@ -10,6 +11,7 @@
   - `sli = make([]int, 10, 15) // slice size is 10 but array capacity is 15`
 
 ## Append
+
 - size of a slice can be increased by append()
 - adds elements to the end of a slice
 - inserts into underlying array

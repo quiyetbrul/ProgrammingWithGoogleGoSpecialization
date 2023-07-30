@@ -43,7 +43,9 @@ func main(){
 ```
 
 ## Deferred Call Arguments
+
 - arguments of a deferred call are evaluated immediately
+
 ```golang
 func main(){
   i := 1

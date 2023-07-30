@@ -15,12 +15,12 @@
 ```golang
 var funcVar func(int) int
 func incFn(x int) int {
-	return x + 1
+  return x + 1
 }
 
 func main() {
-	funcVar = incFn // can also just be funcVar := incFn
-	fmt.Println(funcVar(1))
+  funcVar = incFn // can also just be funcVar := incFn
+  fmt.Println(funcVar(1))
 }
 ```
 

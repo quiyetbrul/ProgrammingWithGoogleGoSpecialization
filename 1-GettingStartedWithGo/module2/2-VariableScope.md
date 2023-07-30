@@ -14,7 +14,9 @@ func g(){
 }
 
 ```
+
 vs.
+
 ```golang
 // version 2
 func f(){
@@ -26,6 +28,7 @@ func g(){
   fmt.Printf("%d", x)
 }
 ```
+
 - both versions are basically only printing x
 - version 1
   - both `f()` and `g()` prints 4
@@ -35,6 +38,7 @@ func g(){
   - var x here only lives inside `f()`
 
 ## Blocks
+
 - a sequence of declarations and statements within matching brackets, `{}`
   - including function definitions
 - hierarcy of implicit blocks also
@@ -45,4 +49,5 @@ func g(){
 - clause in `switch` or `select` - individual clauses each get a block
 
 ## Lexical Scoping
+
 - go is lexically scoped using blocks
