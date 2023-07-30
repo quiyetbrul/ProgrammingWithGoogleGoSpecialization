@@ -5,10 +5,11 @@ import (
 )
 
 func main() {
-	a := userInput("Enter acceleration: ")
-	v0 := userInput("Enter initial velocity: ")
-	s0 := userInput("Enter initial displacement: ")
-	t := userInput("Enter time: ")
+	var a, v0, s0, t float64
+	userInput("Enter acceleration: ", &a)
+	userInput("Enter initial velocity: ", &v0)
+	userInput("Enter initial displacement: ", &s0)
+	userInput("Enter time: ", &t)
 
 	fn := GenDisplaceFn(a, v0, s0)
 	fmt.Printf("Displacement after %f time is %f", t, fn(t))
@@ -20,12 +21,10 @@ func GenDisplaceFn(acceleration float64, initVel float64, initDisplacement float
 	}
 }
 
-func userInput(prompt string) float64 {
-	var input float64
+func userInput(prompt string, time *float64) {
 	fmt.Print(prompt)
-	_, err := fmt.Scanf("%f", &input)
+	_, err := fmt.Scanf("%f", time)
 	if err != nil {
 		fmt.Println(err)
 	}
-	return input
 }
