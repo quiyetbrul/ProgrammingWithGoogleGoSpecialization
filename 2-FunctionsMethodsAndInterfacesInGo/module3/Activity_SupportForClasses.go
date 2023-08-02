@@ -13,6 +13,13 @@ type Animal struct {
 	noise      string
 }
 
+func main() {
+	for {
+		animalType, action := promptForInput()
+		processUserInput(animalType, action)
+	}
+}
+
 func (a Animal) Eat() {
 	fmt.Println(a.food)
 }
@@ -29,13 +36,6 @@ var animals = map[string]Animal{
 	"cow":   {"grass", "walk", "moo"},
 	"bird":  {"worms", "fly", "peep"},
 	"snake": {"mice", "slither", "hsss"},
-}
-
-func main() {
-	for {
-		animalType, action := promptForInput()
-		processUserInput(animalType, action)
-	}
 }
 
 func promptForInput() (string, string) {
