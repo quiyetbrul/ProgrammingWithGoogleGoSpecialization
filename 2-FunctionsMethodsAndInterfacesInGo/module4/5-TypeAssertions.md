@@ -48,3 +48,19 @@ func DrawShape(s Shape2D) bool{
   - rect == concrete type, ok == true
 - if interface does not contain concrete type
   - rect == zero, ok == false
+
+
+## Type Switch
+
+- switch statement used with a type assertion
+
+```golang
+func DrawShape(s Shape2D) bool{
+  switch := sh := s.(type){
+    case Rectangle:
+      DrawRect(sh)
+    case Triangle:
+      DrawRect(sh)
+  }
+}
+```
