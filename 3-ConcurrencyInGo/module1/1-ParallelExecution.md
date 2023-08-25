@@ -1,4 +1,4 @@
-# Parallel Exeuction
+# Parallel Execution
 
 - two programs execute in parallel if they execute at exactly the same time
 - at time t, an instruction is performed for both P1 and P2
@@ -48,14 +48,14 @@
   - voltage is important
     - 0-5V uses much more power than 0-1.3V etc
 
-### Denard Scaling
+### Dennard Scaling
 
 - voltage should scale with transistor size
 - keeps power consumption, and temprature, low
 - problem: voltage can't go too low
   - must stay above threshold voltage
   - noise prblems occur
-- prblem: doesn't consider leakage power
+- problem: doesn't consider leakage power
 
 ### Multi-Core Systems
 
