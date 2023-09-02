@@ -13,7 +13,7 @@
 
 ### Early Exit
 
-```go
+```golang
 func main(){
   go fmt.Printf("New routine")
   fmt.Printf("Main routine") // only main routine is printed
@@ -24,7 +24,7 @@ func main(){
 
 ### Delayed Exit
 
-```go
+```golang
 func main(){
   go fmt.Printf("New routine")
   time.Sleep(100 * time.Millisecond)
