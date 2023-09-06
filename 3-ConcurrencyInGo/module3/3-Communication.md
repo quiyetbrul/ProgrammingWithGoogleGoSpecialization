@@ -65,3 +65,28 @@ func main(){
 - sending only blocks if **buffer is full**
 - receiving only blocks if buffer is empty
 - **NOT RECOMMENDED**: blocking could potentially mean reducing concurrency, unable to execute, and therefore waste processor resources
+
+### Channel Blocking, Receive
+
+- channel with capacity 1
+
+![ChannelBlockingReceive](assets/channelBlockingReceive.png)
+
+- first receive blocks until send occurs
+- second receive blocks forever
+
+### Channel Blocking, Send
+
+![ChannelBlockingSend](assets/channelBlockingSend.png)
+
+- second send blocks until receive is done
+- receive can block until first send is done
+
+### Use of Buffering
+
+- sender and receiver do not need to operate at exactle the same speed
+
+![ProducerConsumer](assets/producerConsumer.png)
+
+- speed mismatch is acceptable
+- average speeds must still match
