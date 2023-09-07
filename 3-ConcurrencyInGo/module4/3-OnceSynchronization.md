@@ -218,7 +218,7 @@ for i := 0; i < 5; i++{
 
 ```golang
 // current code
-// here, philosopher 4 picks up the highest numbered chopstick
+// here, philosopher 4 picks up the lowest numbered chopstick
 philos[i] = &Philo{Csticks[i], Csticks[(i+1)%5]}
 ```
 
