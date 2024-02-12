@@ -24,7 +24,7 @@ s2:=arr[2:5] // has c,b,d,e in the slice
 ```golang
 a1:=[3]string{"a", "b", "c", "d"}
 s1:=a1[0:1] // has a
-fmt.Printf(len(s1), cap(1))
+fmt.Printf(len(s1), cap(a1))
 ```
 
 ## Accessing Slices
