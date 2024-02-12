@@ -12,7 +12,7 @@
 ```golang
 arr := [...]string{"a", "b", "c", "d", "e", "f", "g"} // ellipses is optional
 s1:=arr[1:3] // 1 points to the index where the slice starts, 3 is the index after the end of the slice, b,c
-s2:=arr[2:5] // has c,b,d in the slice
+s2:=arr[2:5] // has c,b,d,e in the slice
 ```
 
 ## Length and Capacity
