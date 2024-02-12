@@ -20,7 +20,7 @@
 
 ```golang
 x:= [3]int{1,2,3}
-for im v range x{
+for i, v range x{
   fmt.Printf("i:%d, val:%d, i,v)
 }
 ```
